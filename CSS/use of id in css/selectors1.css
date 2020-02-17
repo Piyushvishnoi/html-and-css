@@ -1,0 +1,9 @@
+/* use of id in css */
+#heading {
+  color: red;
+  background-color: black;
+}
+#subheading {
+  color: blanchedalmond;
+  background-color: black;
+}
