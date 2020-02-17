@@ -1,0 +1,9 @@
+/* group selectors */
+body {
+  color: brown;
+}
+h1,
+h2 {
+  color: black;
+  font-size: 3rem;
+}
