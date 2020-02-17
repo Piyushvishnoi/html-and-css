@@ -1,8 +1,9 @@
-/* use of id in css */
+/* use of id in css  and id must be unique */
 #heading {
   color: red;
   background-color: black;
 }
+/* subheading is an id used with html */
 #subheading {
   color: blanchedalmond;
   background-color: black;
