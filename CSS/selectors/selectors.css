@@ -2,6 +2,7 @@
 body {
   color: brown;
 }
+/* h1 and h2 will be grouped together */
 h1,
 h2 {
   color: black;
