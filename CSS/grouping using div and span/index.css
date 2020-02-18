@@ -1,11 +1,12 @@
 body {
   color: red;
 }
-/* div is used specifically where something in bunch have to be affected*/
+/* div is used specifically where whole block have to be affected
+div uses next line as its default*/
 div {
   color: blue;
 }
-/* span is used mainly in case of inline transformations*/
+/* span is used mainly in case of inline transformations and continue with the same line*/
 span {
   text-transform: uppercase;
   color: black;
