@@ -1,0 +1,19 @@
+/* Hex values #RRGGBB
+#ff0000 - RED color
+#00ff00 - GREEN colour */
+#first {
+  color: #e62d2d;
+  background: #000000;
+}
+#second {
+  color: #ffff;
+  background: #00ff00;
+}
+#third {
+  color: #0000ff;
+  background: #f15025;
+}
+#fourth {
+  color: #f234ad;
+  background: #222;
+}
