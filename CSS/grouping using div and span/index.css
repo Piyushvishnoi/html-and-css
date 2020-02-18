@@ -1,0 +1,12 @@
+body {
+  color: red;
+}
+div {
+  color: blue;
+}
+span {
+  text-transform: uppercase;
+  color: black;
+  background-color: burlywood;
+  font-size: 2rem;
+}
