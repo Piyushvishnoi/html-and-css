@@ -3,9 +3,11 @@ body {
   font-family: monospace;
   line-height: 1.5cm;
 }
+/* here property of body will be inherited by div and h2 also and will not be changed until they are overwritten */
 div {
   color: blue;
-}
+} 
+/* h2 has overridden the body property of color of red*/
 h2 {
   color: green;
   text-transform: lowercase;
