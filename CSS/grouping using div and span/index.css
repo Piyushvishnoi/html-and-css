@@ -1,9 +1,11 @@
 body {
   color: red;
 }
+/* div is used specifically where something in bunch have to be affected*/
 div {
   color: blue;
 }
+/* span is used mainly in case of inline transformations*/
 span {
   text-transform: uppercase;
   color: black;
