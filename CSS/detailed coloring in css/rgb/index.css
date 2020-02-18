@@ -1,0 +1,20 @@
+#first {
+  color: red;
+  background-color: teal;
+}
+#second {
+  color: green;
+  background-color: black;
+}
+/* use of RGB Red Green Blue */
+#third {
+  color: rgb(255, 122, 255);
+  background: rgb(0, 0, 0);
+}
+#fourth {
+  color: rgb(122, 122, 344);
+  background: rgb(255, 255, 255);
+}
+body {
+  background: rgb(0, 255, 122);
+}
