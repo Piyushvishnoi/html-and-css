@@ -1,0 +1,19 @@
+/* font size,height,width,pixels
+pixels are absolute value of measurement*/
+h1 {
+  font-size: 60px;
+  width: 200px;
+  background: blue;
+  height: 300px;
+}
+/* percentage values  */
+.outer {
+  width: 200px;
+  height: 200px;
+  background: red;
+}
+.inner {
+  width: 50%;
+  height: 50%;
+  background: blue;
+}
