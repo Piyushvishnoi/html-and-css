@@ -1,0 +1,19 @@
+/* vh(view height)- height- percent of the screen
+vw(view width)-width-percent of the screen 
+vh will be useful with designing poster
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.banner {
+  width: 50vw;
+  height: 50vh;
+  background: red;
+}
+.header {
+  width: 100vw;
+  height: 100vh;
+  background: blue;
+}
