@@ -1,0 +1,14 @@
+/* em: relative depend on parent i.e if we had given value in px then there will be no change even if there is a change in parent value
+1em: 16px default browser style
+1em=base value 
+2em=32px
+*/
+div {
+  font-size: 10px;
+}
+.relative {
+  font-size: 64px;
+}
+.absolute {
+  font-size: 3em;
+}
