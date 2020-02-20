@@ -1,0 +1,16 @@
+/* use of calc function*/
+* {
+  margin: 0em;
+}
+h1 {
+  background: blue;
+  color: white;
+}
+h2 {
+  background: yellow;
+  min-height: calc(100vh-100px);
+}
+.navbar {
+  background: green;
+  min-height: calc(100vh - 100px);
+}
