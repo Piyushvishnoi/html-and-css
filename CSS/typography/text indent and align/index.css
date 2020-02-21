@@ -1,0 +1,10 @@
+/* use of text indent and text align*/
+p {
+  text-align: left;
+}
+.paracentre {
+  text-align: centre;
+}
+.centre {
+  text-align: center;
+}
