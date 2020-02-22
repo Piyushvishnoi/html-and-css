@@ -1,0 +1,14 @@
+/* border radius and negative margin*/
+h1 {
+  background: red;
+  padding: 20px;
+  border: 5px solid black;
+  border-radius: 40px;
+}
+p {
+  background: blue;
+  padding: 20px;
+  border: 13px solid green;
+  border-radius: 30%;
+  margin-top: -50px;
+}
