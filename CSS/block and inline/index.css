@@ -1,0 +1,14 @@
+/* Default Display property
+Block: Always starts a new line and takes full width
+inline: does not start and only take up as muc as content space
+*/
+.block {
+  background: blue;
+  color: white;
+  display: inline;
+}
+.inline {
+  background: red;
+  color: white;
+  display: block;
+}
