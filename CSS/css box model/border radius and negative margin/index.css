@@ -10,6 +10,6 @@ p {
   padding: 20px;
   border: 13px solid green;
   border-radius: 30%; 
-  /* negative margin get into use when to overbed something i.e half of the other thing on other
+  /* negative margin get into use when to overbed something i.e half of the other thing on other*/
   margin-top: -50px;
 }
