@@ -1,0 +1,13 @@
+/* horizontal centring*/
+
+body {
+  text-align: center;
+}
+.block {
+  background: red;
+  color: white;
+  width: 150px;
+  /*  to make block only at the centre */
+  margin-left: auto;
+  margin-right: auto;
+}
