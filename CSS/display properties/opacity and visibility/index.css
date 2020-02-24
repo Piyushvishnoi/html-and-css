@@ -1,0 +1,26 @@
+/*  display : none 
+none will remove the data or line completely
+ opacity:0
+ visibility:hidden
+ if we don't want to show something but want to keep it on the screen then we use opacity as 0 or visibility as hidden 
+*/
+div {
+  background: #0000ff;
+  margin: 10px;
+  color: white;
+}
+.none {
+  display: none;
+}
+.opacity1 {
+  opacity: 1;
+}
+.opacity0 {
+  opacity: 0;
+}
+.opacity5 {
+  opacity: 0.1;
+}
+.visibility {
+  visibility: hidden;
+}
