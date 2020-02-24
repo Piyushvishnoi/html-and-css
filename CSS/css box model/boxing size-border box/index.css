@@ -1,0 +1,25 @@
+/* border-box is used to save from a mess related to layout of page when we use padding inside some block*/
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.box1,
+.box2,
+.box3 {
+  width: 200px;
+  height: 200px;
+  color: white;
+}
+.box1 {
+  background: red;
+  padding: 20px;
+  border-bo
+}
+.box2 {
+  background: blue;
+}
+.box3 {
+  background: green;
+  padding: 20px;
+}
