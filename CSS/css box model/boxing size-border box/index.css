@@ -4,7 +4,8 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
-.box1,
+/* here grouping also takes placeof class box1 ,box2 and box3*/
+.box1,  
 .box2,
 .box3 {
   width: 200px;
