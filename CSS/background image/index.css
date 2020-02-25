@@ -1,0 +1,15 @@
+div {
+  height: 400px;
+  color: red;
+}
+.bigimg {
+  background: url("./bigimage.jpeg");
+}
+.smallimg {
+  background: url("./small.jpeg");
+  background-repeat: repeat;
+  background-repeat: no-repeat;
+}
+.folderimg {
+  background: url("./imagefold/image.jpeg");
+}
