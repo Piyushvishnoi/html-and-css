@@ -1,0 +1,22 @@
+div {
+  min-height: 100vh;
+  color: green;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.bigimg {
+  background: url("./bigimage.jpeg");
+  background-size: cover;
+}
+.smallimg {
+  background: url("./small.jpeg");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+.folderimg {
+  background: url("./imagefold/image.jpeg");
+  background-size: cover;
+}
