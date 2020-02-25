@@ -1,0 +1,24 @@
+/* last rule */
+div {
+  height: 400px;
+  color: red;
+}
+.bigimg {
+  background: url("./bigimage.jpeg");
+  background-repeat: round;
+  background-size: cover;
+}
+.smallimg {
+  background: url("./small.jpeg");
+  background-repeat: no-repeat;
+  background-repeat: repeat-x;
+  background-repeat: repeat-y;
+  background-repeat: space;
+  background-repeat: round;
+  background-size: cover;
+}
+.folderimg {
+  background: url("./imagefold/image.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
