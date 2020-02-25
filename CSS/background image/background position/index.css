@@ -1,0 +1,22 @@
+div {
+  height: 400px;
+  color: red;
+}
+.bigimg {
+  background: url("./bigimage.jpeg");
+  background-size: cover;
+  /*background-position: center;*/
+}
+.smallimg {
+  background: url("./small.jpeg");
+  border: 2px solid red;
+  background-repeat: no-repeat;
+  /* background-position: center;
+  background-position: left;
+  background-position: right;
+  background-position: top; */
+  background-position: 100% 100%;
+}
+.folderimg {
+  background: url("./imagefold/image.jpeg");
+}
