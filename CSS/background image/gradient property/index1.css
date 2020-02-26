@@ -1,0 +1,12 @@
+div {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  margin: 5px;
+}
+.one {
+  background: linear-gradient(red, green);
+}
+.two {
+  background: linear-gradient(to top, blue, red, green);
+}
