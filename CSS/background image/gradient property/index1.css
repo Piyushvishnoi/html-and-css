@@ -4,7 +4,7 @@ div {
   display: flex;
   margin: 5px;
 }
-.one {
+.one { 
   background: linear-gradient(red, green);
 }
 .two {
