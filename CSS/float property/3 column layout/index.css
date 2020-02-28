@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.one {
+  float: left;
+  background: red;
+  height: 500px;
+  font-size: 50px;
+  width: 33.33%;
+}
+.two {
+  float: left;
+  background: green;
+  height: 500px;
+  font-size: 50px;
+  width: 33.33%;
+}
+.three {
+  float: left;
+  background: blue;
+  height: 500px;
+  font-size: 50px;
+  width: 33.33%;
+}
