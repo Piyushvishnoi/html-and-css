@@ -4,7 +4,8 @@
   overflow: hidden;
   /* overflow is used when an image is going out of parent div */
 }
-/*.one {
+/* float property will put something on either side as our wish and clear property will set other text according to previous float property value*/
+.one {
   float: right;
   height: 600px;
 }*/
