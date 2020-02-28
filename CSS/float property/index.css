@@ -1,0 +1,24 @@
+.banner {
+  border: 5px solid red;
+  padding: 10px;
+  overflow: hidden;
+  /* overflow is used when an image is going out of parent div */
+}
+/*.one {
+  float: right;
+  height: 600px;
+}*/
+/*.two {
+  float: left;
+  height: 500px;
+}
+p {
+  font-size: 50px;
+  clear: both;
+}*/
+/* want both image left by left*/
+.one {
+  float: right;
+
+  margin-left: 50px;
+}
