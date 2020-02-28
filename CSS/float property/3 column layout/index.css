@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* use of float property*/
 .one {
   float: left;
   background: red;
