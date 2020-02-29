@@ -1,0 +1,21 @@
+/* position absolute*/
+div {
+  border: 5px solid black;
+  margin-top: 40px;
+  background: red;
+  font-size: 30px;
+  position: relative;
+}
+.one {
+  background: saddlebrown;
+}
+.two {
+  background: salmon;
+  /*position: relative;*/
+}
+.special {
+  background: seagreen;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+}
