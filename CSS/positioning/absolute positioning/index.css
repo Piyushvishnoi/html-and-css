@@ -1,4 +1,6 @@
-/* position absolute*/
+/* position absolute
+absolute position will be followed wrt to its ancestors
+*/
 div {
   border: 5px solid black;
   margin-top: 40px;
