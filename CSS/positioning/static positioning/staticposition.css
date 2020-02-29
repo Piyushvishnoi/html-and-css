@@ -1,0 +1,23 @@
+/* Static positioning 
+all the variables by default have a static positioning*/
+div {
+  border: 3px solid red;
+  background: yellow;
+  margin-top: 40px;
+  text-align: right;
+  position: static;
+}
+.one {
+  background: blue;
+  font-size: 40px;
+  text-align: left;
+}
+.two {
+  background: green;
+  font-size: 40px;
+}
+.special {
+  background: maroon;
+  font-size: 40px;
+  text-align: bottom;
+}
