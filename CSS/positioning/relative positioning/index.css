@@ -1,4 +1,6 @@
-/* position relative*/
+/* position relative
+An element with position: relative; is positioned relative to its normal position.
+*/
 div {
   border: 5px solid black;
   margin-top: 40px;
