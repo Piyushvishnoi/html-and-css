@@ -1,0 +1,31 @@
+/* position fixed 
+with this element is going to stay on pageeven if it is scrollable
+*/
+button {
+  font-size: 40px;
+  background: red;
+  color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+div {
+  border: 5px solid black;
+  margin-top: 40px;
+  background: red;
+  font-size: 30px;
+  position: relative;
+}
+.one {
+  background: saddlebrown;
+}
+.two {
+  background: salmon;
+  /*position: relative;*/
+}
+.special {
+  background: seagreen;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+}
