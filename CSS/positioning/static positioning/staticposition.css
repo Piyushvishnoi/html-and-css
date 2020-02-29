@@ -1,5 +1,7 @@
 /* Static positioning 
-all the variables by default have a static positioning*/
+An element with position: static; is not positioned in any special way
+all the variables by default have a static positioning
+*/
 div {
   border: 3px solid red;
   background: yellow;
