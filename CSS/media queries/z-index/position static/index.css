@@ -17,6 +17,7 @@ img {
   top: 0;
   left: 0;
   position: static;
+  /* this next z-index is useless*/
   z-index: 100;
 }
 .two {
