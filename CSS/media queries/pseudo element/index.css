@@ -1,0 +1,11 @@
+/* 
+ pseudo elements :: before :: after CONTENT not element
+content: '' ----required
+img ---does not work
+*/
+h1::before {
+  content: "hello";
+  font-weight: bold;
+  font-size: 2rem;
+  color: red;
+}
