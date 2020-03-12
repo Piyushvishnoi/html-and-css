@@ -1,0 +1,11 @@
+/* ::first-line ::first-letter */
+p {
+  font-size: 20px;
+}
+p::first-line {
+  font-weight: bold;
+  font-size: 40px;
+}
+p::first-letter {
+  font-size: 4rem;
+}
