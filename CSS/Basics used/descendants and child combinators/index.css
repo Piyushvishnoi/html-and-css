@@ -1,0 +1,15 @@
+/* Descendant and child combinators*/
+/* descendants and after this this will be implemented to its children too*/
+.header h1 {
+  color: green;
+}
+.header > h1 {
+  color: purple;
+}
+div h1 {
+  color: red;
+}
+/* element selectors */
+div > h1 {
+  color: blue;
+}
