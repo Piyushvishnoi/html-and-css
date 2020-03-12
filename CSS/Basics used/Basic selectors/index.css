@@ -2,6 +2,7 @@
 * {
   color: red;
 }
+/* we use #tag with headings and .dot with id */ 
 #heading {
   font-size: 40px;
   text-transform: uppercase;
