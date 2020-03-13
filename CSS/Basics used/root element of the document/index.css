@@ -5,6 +5,7 @@ css variables
 */
 :root {
   background: aqua;
+  font-size:150%;
 }
 /* 1rem === 16px*/
 h1 {
