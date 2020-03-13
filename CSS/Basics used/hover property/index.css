@@ -1,0 +1,11 @@
+/* hover property */
+p:hover {
+  color: red;
+}
+.header:hover {
+  background: blue;
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+}
