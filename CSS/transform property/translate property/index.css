@@ -1,0 +1,18 @@
+/* Transform: translate, */
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+.one {
+  background: red;
+  transform: translateX(50%);
+}
+.two {
+  background: green;
+  transform: translateY(30px);
+}
+.three {
+  background: black;
+  transform: translate(20px, 300px);
+}
