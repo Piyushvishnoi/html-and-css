@@ -1,0 +1,19 @@
+/* Transform: translate,Scale rotate*/
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+.one {
+  background: red;
+  transform: scaleX(0.5);
+}
+.two {
+  background: green;
+  transform: rotateZ(135deg);
+  transform: rotate(135deg);
+}
+.three {
+  background: black;
+  transform: scale(1.5, 1.5);
+}
