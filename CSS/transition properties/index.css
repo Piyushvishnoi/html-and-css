@@ -1,4 +1,4 @@
-/* Transition*/
+/* Transition property*/
 div {
   width: 150px;
   height: 150px;
@@ -6,6 +6,9 @@ div {
 }
 .one {
   background: red;
+}
+.one:hover {
+  background: blue;
 }
 .two {
   background: green;
