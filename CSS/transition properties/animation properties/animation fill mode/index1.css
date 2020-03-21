@@ -1,0 +1,27 @@
+div {
+  width: 200px;
+  height: 100px;
+  color: white;
+  margin: 10px;
+}
+.animation
+{
+    background: blue;
+    animation: move 5s 2;
+}
+@keyframes move {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    transform: translateX(200px);
+   opacity: 0.25%;
+  }
+   50% {
+    transform: translateX(-100px);
+   opacity:1%;
+  }
+  100%{
+     transform: translateX(0px);
+   opacity:0.5%;  
+  }
