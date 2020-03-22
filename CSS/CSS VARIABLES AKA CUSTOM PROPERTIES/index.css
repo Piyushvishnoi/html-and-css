@@ -1,0 +1,22 @@
+/* 
+CSS VARIABLES AKA CUSTOM PROPERTIES
+hold a value and reuse it 
+--varName:value
+property:var(--varName)
+scope
+:root{} ===global
+element ===local
+any property
+*/
+.heading {
+  color: #f15025;
+}
+.text {
+  color: #32ff0e;
+}
+.main-text {
+  color: #1313fa;
+}
+.second-heading {
+  color: #f15025;
+}
