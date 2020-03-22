@@ -10,6 +10,7 @@ div {
 {
     background: blue;
     animation: move 5s 2;
+  animation-fill-mode:forward;
 }
 @keyframes move {
   0% {
@@ -27,3 +28,4 @@ div {
      transform: translateX(0px);
    opacity:0.5%;  
   }
+}
