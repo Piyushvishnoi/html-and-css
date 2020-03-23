@@ -7,7 +7,7 @@ scope
 :root{} ===global
 element ===local
 any property
-*/
+
 .heading {
   color: #f15025;
 }
@@ -19,4 +19,27 @@ any property
 }
 .second-heading {
   color: #f15025;
+}
+*/
+:root {
+  --primaryColor: #1313fa;
+  --secondaryColor: #f15025;
+}
+.heading {
+  color: var(--primaryColor);
+}
+.second-heading {
+  color: var(--primaryColor);
+}
+.second-heading:hover {
+  color: var(--secondaryColor);
+}
+div {
+  --primaryRed: red;
+}
+.main-text {
+  color: var(--primaryRed);
+}
+.third-heading {
+  color: var(--primaryRed);
 }
