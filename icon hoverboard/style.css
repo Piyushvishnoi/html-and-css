@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+  font-family: sans-serif;
+  background: #111;
+}
+ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border: 2px solid #000;
+  border-radius: 5px;
+  padding: 20px 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  width: 520px;
+  background: linear-gradient(0deg, #000000, #0c0c0c);
+}
+li {
+  position: relative;
+  list-style: none;
+  text-align: center;
+  margin: 10px;
+}
+label {
+  position: relative;
+}
+label input {
+  position: absolute;
+}
+.button {
+  width: 200px;
+  height: 60px;
+  background: #101010;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #000;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.fa {
+  font-size: 30px;
+  color: #222;
+  transition: 0.5s;
+  margin: 5px;
+}
+input:checked ~ .button {
+  background: #000;
+  border: 3px solid #fff;
+  box-shadow: 0 0 10px rgba(33, 156, 243, 0.5), 0 0 20px rgba(33, 156, 243, 0.5),
+    0 0 30px rgba(33, 156, 243, 0.5), inset 0 0 10px rgba(33, 156, 243, 1);
+}
+input:checked ~ .button .fa {
+  color: #fff;
+  font-size: 40px;
+  text-shadow: 0 0 10px rgba(33, 156, 243, 1), 0 0 20px rgba(33, 156, 243, 1),
+    0 0 30px rgba(33, 156, 243, 1);
+}
