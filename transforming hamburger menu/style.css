@@ -1,0 +1,44 @@
+body {
+  background: #1f1f1f;
+  margin: 0;
+  padding: 0;
+}
+button {
+  background: transparent;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  outline: none;
+  cursor: pointer;
+  border: 5px solid #f44336;
+  border-radius: 4px;
+  transition: 0.5s;
+  transform: translate(-50%, -50%);
+}
+.menu {
+  position: relative;
+  height: 8px;
+  width: 80px;
+  background: #fff;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  display: block;
+  border-radius: 4px;
+  transition: 0.5s;
+  transform-origin: center;
+}
+button:hover {
+  border-radius: 50%;
+}
+
+button:hover .menu:nth-child(1) {
+  transform: translateY(24px) rotate(-45deg);
+}
+button:hover .menu:nth-child(2) {
+  opacity: 0;
+}
+button:hover .menu:nth-child(3) {
+  transform: translateY(-24px) rotate(45deg);
+}
