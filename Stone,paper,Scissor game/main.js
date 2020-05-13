@@ -1,6 +1,6 @@
 const hands = ["fas fa-hand-rock", "fas fa-hand-paper", "fas fa-hand-scissors"];
 const names = ["rock", "paper", "scissor"];
-const colorwinner = "winner";  
+const colorwinner = "winner";   
 let handA = document.getElementById("handA");
 let handB = document.getElementById("handB");
 let nameA = document.getElementById("nameA");
