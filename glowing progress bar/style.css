@@ -33,7 +33,7 @@ html {
   );
   animation: animate 750ms infinite linear;
 }
-@keyframes animate {
+@keyframes animate { 
   0% {
     background-position: 0 0;
   }
