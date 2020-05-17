@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #cceabb;
+}
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  color: #00bcd4;
+  letter-spacing: 10px;
+  font-size: 5em;
+  text-transform: uppercase;
+  transition: 0.5s;
+  text-align: center;
+  text-shadow: 0 5px 0 rgba(0, 0, 0, 1), 0 10px 40px rgba(0, 0, 0, 0.2),
+    0 20px 30px rgba(0, 0, 0, 0.2), 0 30px 20px rgba(0, 0, 0, 0.2);
+}
+h1::before {
+  content: attr(data-title);
+  position: absolute;
+  top: -5px;
+  left: 0;
+  color: #ff1e56;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+  transition: 0.5s;
+}
+h1::after {
+  content: attr(data-title);
+  position: absolute;
+  top: -10px;
+  left: 0;
+  color: #ffd319;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+  transition: 0.5s;
+}
+h1:hover:before {
+  top: -10px;
+  left: -10px;
+}
+h1:hover:after {
+  top: -20px;
+  left: -20px;
+}
+h1:hover {
+  text-shadow: -10px 10px 0 rgba(0, 0, 0, 1), 0 10px 40px rgba(0, 0, 0, 0.2),
+    0 20px 30px rgba(0, 0, 0, 0.5), 0 30px 20px rgba(0, 0, 0, 0.5);
+}
