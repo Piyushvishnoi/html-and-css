@@ -23,7 +23,7 @@ h1 {
   transform: translate(-50%, -50%);
   color: #fff;
   font-weight: 700;
-  font-family: sans-serif;
+  font-family: sans-serif; 
   font-size: 85px;
   text-transform: uppercase;
 }
