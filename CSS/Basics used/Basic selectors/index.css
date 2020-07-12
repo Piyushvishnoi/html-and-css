@@ -10,7 +10,7 @@
 }
 .heading { 
   font-size: 20px;
-  text-transform: capitalize;
+  text-transform: capitalize; 
   color: blue;
 }
 p {
